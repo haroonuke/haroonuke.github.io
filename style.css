@@ -250,6 +250,7 @@ body::-webkit-scrollbar {
 }
 #homea #abtnam {
   color: goldenrod;
+  color: green;
   text-decoration: none;
   font-weight: 1000;
   font-size: min(80px, max(8vw, 50px));
