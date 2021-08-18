@@ -1,0 +1,612 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+}
+
+#load{
+  width: 100vw;
+  position: fixed;
+  z-index: 500;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loadlgo{
+  background-color:#ffffff22;
+  color: black;
+  border: 5px solid ;
+  width:200px;
+  margin: auto;
+  padding: 70px 0;
+  border-radius: 100vw;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bolder;
+  line-height: 1;
+  position: relative;
+  animation:lood 2s infinite linear;
+}
+@keyframes lood{
+  0%{
+    font-weight: 100;
+    color:red;
+    clip-path: circle(5% at 25% 20%);
+  }
+  50%{
+    color: goldenrod;
+    font-weight: bolder;
+    clip-path: circle(108.6% at 25% 25%);
+  }
+  100%{
+    font-weight:bolder;
+    color: green;
+    clip-path: circle(5% at 75% 75%);
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+#header {
+  width: 100vw;
+  background-color: #ffffff00;
+}
+#heada {
+  background-color: black;
+  display: flex;
+}
+#heada a {
+  background-color: #ffffff00;
+  text-decoration: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+#heada #logo {
+  border: 3px solid blue;
+  border-radius: 30px;
+}
+#heada a svg {
+  background-color: none;
+  border-radius: 25px;
+}
+#heada a #name {
+  display: block;
+}
+#name h1 {
+  font-size: max(32px, min(8vw, 48px));
+  color: goldenrod;
+  font-family: monospace;
+  margin: auto;
+}
+#name b {
+  color: blue;
+  font-size: max(32px, min(8vw, 48px));
+  font-family: cursive;
+}
+#heada #sign {
+  background-color: #ffffff00;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: auto;
+  margin-right: 1vw;
+}
+#heada #sign h4 {
+  background-color: #00000000;
+  height: 22px;
+  color: blue;
+  padding: 3px 2px;
+  border-radius: 10px;
+}
+#signpage {
+  position: absolute;
+  transition: all 1000ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border: 2px solid goldenrod;
+  right: 0;
+  top: -260px;
+  z-index: 11;
+}
+#signpage ul {
+  font-family: monospace;
+  padding: 20px 50px;
+}
+#signpage ul hr {
+  border: none;
+  background-color: red;
+  height: 3px;
+  width: 25px;
+  margin: auto;
+  transition: transform 200ms;
+}
+#signpage ul #zzz {
+  background-color: none;
+  width: 26px;
+  padding: 12px 0;
+  margin: auto;
+}
+#signpage #zzzz {
+  height: 30px;
+  float: right;
+  background-color: #ffffff00;
+  border: none;
+}
+#signpage ul #zzz:active hr {
+  width: 30px;
+}
+#signpage ul #zzz:hover #hra {
+  transform: rotate(135deg);
+}
+#signpage ul #zzz:hover #hrb {
+  transform: rotate(45deg);
+}
+#signpage ul #hra {
+  transform: rotate(45deg);
+}
+#signpage ul #hrb {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -3px;
+}
+#signpage li p {
+  color: goldenrod;
+  font-size: 17px;
+}
+#signpage li input {
+  color: white;
+  background-color: #00000000;
+  border: none;
+  border-bottom: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 0 8px;
+  font-size: 17px;
+}
+#signpage li input:active {
+  outline: none;
+}
+#signpage li input:hover {
+  outline: none;
+}
+#signpage li {
+  list-style: none;
+}
+#signpage #sbmt {
+  color: goldenrod;
+  font-weight: bold;
+  border-bottom: 3px solid goldenrod;
+  border-right: 3px solid goldenrod;
+  margin-left: 33%;
+  background-color: none;
+}
+#signpage #sbmt:active {
+  padding: 1px 9px;
+}
+
+#menu {
+  width: 100vw;
+  background-color: #ffffff00;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+#menua {
+  display: flex;
+  background-color: goldenrod;
+}
+#menua ul {
+  background-color: #00000000;
+  display: flex;
+}
+#menua ul a {
+  background-color: #00000000;
+  text-decoration: none;
+}
+#menua ul li {
+  background-color: #ffffff00;
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+  list-style: none;
+  font-size: min(5vw, 30px);
+  width: 25vw;
+  text-align: center;
+}
+#menua ul li:active {
+  background-color: black;
+  color: goldenrod;
+}
+
+#home {
+  background-color: #ffffff00;
+  width: 100vw;
+}
+#homea {
+  background-color: #ffffffee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#homea img {
+  width: max(30vw, 300px);
+  height: max(27.5vw, 300px);
+  border-bottom: 1vw solid black;
+  border-radius: 60px;
+  padding: 0;
+  color: red;
+}
+#homea #abtnam {
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: min(80px, max(8vw, 50px));
+  font-family: cursive;
+  margin: 0;
+  line-height: 1.35;
+}
+#homea #abtbut {
+  color: black;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: min(40px, max(4vw, 30px));
+  font-weight: 1000;
+  background-color: goldenrod;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 0 10vw;
+  margin-bottom: 10px;
+  transition: all 300ms;
+}
+#homea #abtbut:active {
+  background-color: black;
+  color: goldenrod;
+  border: 3px solid goldenrod;
+}
+#homea #abtbut:hover {
+  padding: 0 11vw;
+}
+#homea hr {
+  background-color: goldenrod;
+  height: 0.5vw;
+  width: 100vw;
+  border: none;
+}
+
+#about {
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  flex-flow: wrap;
+  padding:7.6vw 0;
+  border-bottom: 0.5vw solid goldenrod;
+}
+#abouta {
+  background-color: #ffffff00;
+}
+#abouta h2 {
+  color: blue;
+  font-family: monospace;
+  padding: 15px;
+  font-size:max(3vw,25px);
+}
+#abouta h2::before {
+  content: "01.";
+  color: goldenrod;
+}
+#abouta #hra{
+    background-color: goldenrod;
+    border: none;
+    height: 1px;
+}
+#abouta p {
+  padding: 0 3vw;
+  width: min(90vw, 820px);
+  font-size: 17px;
+  font-family: monospace;
+  text-align: justify;
+}
+#abouta ul {
+  background-color: #ffffff00;
+  width: min(88vw, 600px);
+  padding: 0 6vw;
+  display: flex;
+  flex-flow: wrap;
+}
+#abouta li {
+  background-color: #ffffff00;
+  width: 50%;
+  list-style: none;
+  font-family: monospace;
+  font-size: 17px;
+}
+#abouta li::before {
+  content: "-";
+  font-size: 30px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-right: 6px;
+}
+#about #pic {
+  background-color: #00000000;
+  height: 370px;
+  width: 370px;
+  border-radius: 30px;
+  border: none;
+  overflow: hidden;
+  margin: auto;
+}
+#about img {
+  width: 355px;
+  height: 355px;
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  top: -355px;
+  z-index: 1;
+}
+#about #pic::before {
+  content: "";
+  width: 355px;
+  height: 355px;
+  background-color: #daa520dd;
+  border-radius: 29px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  transition: all 200ms;
+}
+#about #pic::after {
+  content: "";
+  width: 355px;
+  height: 355px;
+  background-color: #ffffff00;
+  border: 2px solid #daa520;
+  display: block;
+  position: relative;
+  bottom: 704px;
+  border-radius: 30px;
+  left: 11px;
+  z-index: 0;
+  transition: all 200ms;
+}
+#about #pic:hover:before {
+  background-color: #00000055;
+}
+#about #pic:hover:after {
+  bottom: 710px;
+  left: 6px;
+}
+
+#expe{
+    background-color:#ffffff00;
+    width: 100vw;
+    padding:8.8vw 0;
+    border-bottom: 0.5vw solid goldenrod;
+}
+#expe #hra{
+     background-color: goldenrod;
+     border: none;
+     height: 1px;
+}
+#expe h2{
+    color: blue;
+    font-family: monospace;
+    padding: 15px;
+    font-size:max(3vw,25px);
+}
+#expe h2::before {
+    content: "02.";
+    color: goldenrod;
+  }
+#expea{
+    background-color: #ffffff00;
+    display: flex;
+    padding: 3vw;
+}
+#expea #hrb{
+    background-color:#ffffff22;
+    border-radius: 100px;
+    border: none;
+    width: 2px;
+    margin: 10px;
+    margin-right: 0;
+    height: 240px;
+}
+#expea #hrc{
+    border: none;
+    position: relative;
+    width: 2px;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: 100px;
+    transition: all 250ms;
+}
+#expea #expeb{
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 240px;
+    margin: 10px 0;
+}
+#expea button{
+    color: white;
+    font-size:17px;
+    font-family: monospace;
+    text-align: left;
+    margin:0;
+    padding:10px 15px;
+    background-color: #ffffff00;
+    border: none;
+}
+#expea button:hover{
+    background-color:#ffffff11;
+    color: goldenrod;
+}
+#expec{
+    background-color: #00000000;
+    margin: 10px;
+    border: 2px dashed #ffffff00;
+}
+#expec:hover{
+    border: 2px dashed goldenrod;
+}
+#expec h4{
+    color: skyblue;
+    font-size: 22px;
+    font-family: cursive;
+    padding: 10px 20px;
+}
+#expec li{
+    list-style: none;
+}
+#expe p{
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    font-family: monospace;
+}
+#expe p::before{
+    content:"-";
+    color: goldenrod;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+
+#clkbdy{
+  background-color:#ffffff00;
+  height: 25.1vw;
+  padding: 12vw 0;
+  border-bottom: 0.5vw solid goldenrod;
+}
+#clkbdy #heading{
+  background-color:#ffffff00;
+  color: blue;
+  font-family: monospace;
+  font-size: 4vw;
+  padding:0 5vw;
+}
+#clkbdy #heading::before{
+  content:"03.";
+  color: goldenrod;
+}
+#clkbdy #clock{
+  background-color:#ffffff00;
+  font-size: 14.5vw;
+  color: goldenrod;
+  font-family: cursive;
+  text-align: center;
+}
+
+
+
+#contect{
+  background-color: #ffffff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 0.5vw solid goldenrod;
+  padding: 9vw;
+}
+#contect h3{
+  color:blue;
+  font-size:max(3vw,25px);
+  font-family: monospace;
+}
+#contect h3::before{
+  content: "04.";
+  color:goldenrod;
+}
+#contect h1{
+  color: goldenrod;
+  font-size:max(5vw,35px);
+  font-family: cursive;
+  margin: 8px;
+}
+#contect p{
+  color: white;
+  font-size:22px;
+  font-family: monospace;
+  width:min(92vw,800px);
+}
+#contect a{
+  color: goldenrod;
+  font-size:22px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: monospace;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 60.5px;
+}
+#contect a:hover,#contect a:active{
+  background-color: #daa52099;
+  color: black;
+}
+
+#ender{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ender p{
+  color:#ffffff44;
+  font-family: monospace;
+  text-align: center;
+  font-size: 17px;
+  padding: 25px;
+}
+
+#fix{
+  position: fixed;
+  bottom: max(1vw,25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fix a{
+  background-color: #ffffff00;
+  border-radius: 5px;
+}
+#fix i{
+  color: #daa520dd;
+  font-size:min(8vw,45px);
+}
+#fix #fixa{
+  margin-right: 5vw;
+}
+#fix #fixb{
+  margin-right: 25vw;
+}
+#fix #fixc{
+  margin-left: 25vw;
+}
+#fix #fixd{
+  margin-left: 5vw;
+}
+@media screen and (max-width:768px){
+  #fix{
+    position:relative;
+    height: 0px;
+    bottom: min(10vw,45px);
+  }
+  #ender{
+    display: block;
+  }
+}
