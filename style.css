@@ -241,7 +241,7 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 #homea img {
-  width: 30;
+  width: 30vw;
   height: 27.5vw;
   border-bottom: 1vw solid black;
   border-radius: 60px;
