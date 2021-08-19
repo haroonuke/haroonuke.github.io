@@ -241,8 +241,8 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 #homea img {
-  width: max(30vw, 300px);
-  height: max(27.5vw, 300px);
+  width: 30;
+  height: 27.5vw;
   border-bottom: 1vw solid black;
   border-radius: 60px;
   padding: 0;
