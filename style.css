@@ -90,11 +90,12 @@ body::-webkit-scrollbar {
   color: goldenrod;
   font-family: monospace;
   margin: auto;
+  font-variant: small-caps;
 }
 #name b {
   color: blue;
   font-size: max(32px, min(8vw, 48px));
-  font-family: cursive;
+  font-family:monospace;
 }
 #heada #sign {
   background-color: #ffffff00;
