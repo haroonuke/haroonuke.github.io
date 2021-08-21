@@ -245,7 +245,7 @@ body::-webkit-scrollbar {
   width: 30vw;
   height: 27.5vw;
   border-bottom: 1vw solid black;
-  border-radius: 60px;
+  border-radius: 5vw;
   padding: 0;
   color: red;
 }
