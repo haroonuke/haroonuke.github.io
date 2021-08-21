@@ -238,6 +238,7 @@ body::-webkit-scrollbar {
   background-color: #ffffff00;
   width: 100vw;
   height: 83.9vh;
+  position: relative;
 }
 #homea {
   width: 100%;
