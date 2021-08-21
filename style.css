@@ -209,29 +209,29 @@ body::-webkit-scrollbar {
 }
 #menua {
   display: flex;
-  background-color: goldenrod;
 }
 #menua ul {
   background-color: #00000000;
   display: flex;
+  border-bottom:3px solid goldenrod;
 }
 #menua ul a {
   background-color: #00000000;
   text-decoration: none;
 }
 #menua ul li {
-  background-color: #ffffff00;
-  color: black;
+  background-color:black;
+  color:goldenrod;
   font-family: monospace;
   font-weight: bold;
   list-style: none;
-  font-size: min(5vw, 30px);
+  font-size: 30px;
   width: 25vw;
   text-align: center;
 }
 #menua ul li:active {
-  background-color: black;
-  color: goldenrod;
+  background-color: #daa520;
+  color: black;
 }
 
 #home {
@@ -242,7 +242,7 @@ body::-webkit-scrollbar {
 }
 #homea {
   width: 100%;
-  min-height: 84.3vh;
+  min-height: 83.7vh;
   background-color: #ffffffee;
   position: relative;
   display: flex;
