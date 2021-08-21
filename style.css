@@ -84,9 +84,11 @@ body::-webkit-scrollbar {
 }
 #heada a #name {
   display: block;
+  padding: auto;
+  height: 61px;
 }
 #name h1 {
-  font-size: max(32px, min(8vw, 48px));
+  font-size:max(32px, min(11vw, 55px));
   color: goldenrod;
   font-family: monospace;
   margin: auto;
@@ -94,7 +96,7 @@ body::-webkit-scrollbar {
 }
 #name b {
   color: blue;
-  font-size: max(32px, min(8vw, 48px));
+  font-size: max(32px, min(11vw, 55px));
   font-family:monospace;
 }
 #heada #sign {
