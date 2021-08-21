@@ -497,24 +497,24 @@ body::-webkit-scrollbar {
 }
 
 
-#clkbdy{
+#work{
   background-color:#ffffff00;
   height: 25.1vw;
   padding: 12vw 0;
   border-bottom: 0.5vw solid goldenrod;
 }
-#clkbdy #heading{
+#work #heading{
   background-color:#ffffff00;
   color: blue;
   font-family: monospace;
   font-size: 4vw;
   padding:0 5vw;
 }
-#clkbdy #heading::before{
+#work #heading::before{
   content:"03.";
   color: goldenrod;
 }
-#clkbdy #clock{
+#work #clock{
   background-color:#ffffff00;
   font-size: 14.5vw;
   color: goldenrod;
