@@ -67,6 +67,9 @@ body::-webkit-scrollbar {
   background-color: black;
   display: flex;
 }
+#heada a{
+  text-decoration: none;
+}
 #heada img{
   width: 50px;
 }
