@@ -67,20 +67,8 @@ body::-webkit-scrollbar {
   background-color: black;
   display: flex;
 }
-#heada a {
-  background-color: #ffffff00;
-  text-decoration: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-#heada #logo {
-  border: 3px solid blue;
-  border-radius: 30px;
-}
-#heada a svg {
-  background-color: none;
-  border-radius: 25px;
+#heada img{
+  width: 50px;
 }
 #heada a #name {
   display: block;
