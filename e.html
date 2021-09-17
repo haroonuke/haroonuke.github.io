@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haroon Warraich</title>
+    <link rel="stylesheet" href="a.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="/a.js" defer></script>
+    <style>
+      .home {
+        background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLUhxQfL7vPLEKuidHu2STutmU-ZMah8eTJWZ6AgREkRtKUVLf0JdJYHtY5xgl2NlqA_zVI5H3_DSH0UZD0YI1LuI7URbWmOCnCQtmPlP_v_zMYPvj8iV0STW6PysKmfXzd_DSDPyFe9W6YO0qvZJBTC=s658-no");
+      }
+      .home_b {
+        background-color: #00000000;
+        margin: 4vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .contact{
+        background-color: var(--colorb);
+        padding: 2vw;
+        width: 55vw;
+      }
+      .contact h1{
+        color: var(--colord);
+        font-family: var(--fonta);
+        font-size: 4vw;
+      }
+      .contact h3{
+        color: var(--colora);
+        font-family: var(--fonta);
+        font-size: 3vw;
+      }
+      .contact p{
+        color: var(--colorc);
+        font-family: var(--fonta);
+        font-size: max(1.5vw,10px);
+      }
+      .contact ul{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .contact li{
+        list-style: none;
+        border: 3px solid var(--colord);
+        border-radius: 3px;
+        display: flex;
+        width: 4vw;
+        height: 4vw;
+        justify-content: center;
+        align-items: center;
+        transform: rotateZ(45deg);
+        padding: max(0vw,6px);
+        transition: .3s linear;
+      }
+      .contact i{
+        color: var(--colord);
+        font-size: max(3vw,20px);
+        transform: rotateZ(-45deg);
+        transition: .3s linear;
+      }
+      .contact li:hover{
+        transform: rotateZ(0deg);
+        border: 3px solid var(--colora);
+      }
+      .contact li:hover i{
+        transform: rotateZ(0deg);
+      }
+      .home_btn {
+        color: var(--colorb);
+        text-align: center;
+        width: 15vw;
+        margin: 20px 0;
+        text-decoration: none;
+        background-color: #ffffff00;
+        padding: max(0.5vw, 4px);
+        font-family: monospace;
+        font-size: max(1.8vw, 15px);
+        border-radius: 5px;
+        border: 1px solid var(--colorb);
+      }
+      .home_btn:active {
+        color: var(--colorc);
+        background-color: var(--colorb);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <div class="home_a">
+        <a href="/a.html" class="logo">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AM-JKLVZHMETHtJdcjYGLAiDwLYD5gkgZar6la2fg-NXa7XX7PalE-E_vQul4qyJo83sEI35PAZObB1bf20yZGTzy0NFQqzDoAXEy55PHn7LzlWjtLRT0UiX0heH9n95L2pZL9u29WlbNC43PTM8CcoHMKw_=s648-no"
+            alt="logo"
+          />
+        </a>
+        <h1 class="name">Haroon Warraich</h1>
+        <p class="name_dis">HTML / CSS / Javascript .</p>
+        <ul class="pages">
+          <a href="/a.html"><li>HOME</li></a>
+          <a href="/b.html"><li>ABOUT</li></a>
+          <a href="/c.html"><li>SERVICES</li></a>
+          <a href="/d.html"><li>SKILLS</li></a>
+          <a href="/e.html"
+            ><li style="color: lightblue; text-decoration: underline 2px">
+              CONTACT
+            </li></a
+          >
+        </ul>
+        <p class="ender">Haroon Warraich<br />This website in 2021.</p>
+      </div>
+      <div class="home_b">
+        <div class="contact">
+          <h1>Contact us.</h1>
+          <h3>Need to talk? We're listening...</h3>
+          <p>Your message will be sent to our teams worldwide, who will get back to you as soon as they can. Please be advised that weekends and public holidays might delay response time.</p>
+          <ul>
+            <li><a href="https://en-gb.facebook.com"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a></li>
+          </ul>
+        </div>
+        <a href="/a.html" class="home_btn">Home</a>
+      </div>
+    </div>
+  </body>
+</html>
